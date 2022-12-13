@@ -30,11 +30,11 @@ input_marks_TOEFL = st.number_input(
 input_Uni_Rating = st.slider(
     label="Rating", min_value=0, max_value=5, step=1)
 input_SOP = st.slider(
-    label="SOP", min_value=0, max_value=5, step=0.5)
+    label="SOP", min_value=0.0, max_value=5.0, step=0.5)
 input_LOR = st.slider(
-    label="LOR", min_value=0, max_value=5, step=0.5)
+    label="LOR", min_value=0.0, max_value=5.0, step=0.5)
 input_CGPA = st.slider(
-    label="SOP", min_value=0, max_value=10, step=0.01)
+    label="SOP", min_value=0.00, max_value=10.00, step=0.01)
 research = -1
 st.write("Have you done any research work?")
 if st.checkbox("Yes"):
