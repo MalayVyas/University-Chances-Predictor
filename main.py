@@ -34,7 +34,7 @@ input_SOP = st.slider(
 input_LOR = st.slider(
     label="LOR", min_value=0.0, max_value=5.0, step=0.5)
 input_CGPA = st.slider(
-    label="SOP", min_value=0.00, max_value=10.00, step=0.01)
+    label="CGPA", min_value=0.00, max_value=10.00, step=0.01)
 research = -1
 st.write("Have you done any research work?")
 if st.checkbox("Yes"):
