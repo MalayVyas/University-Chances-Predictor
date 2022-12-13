@@ -41,6 +41,7 @@ if st.checkbox("Yes"):
     research = 1
 elif st.checkbox("NO"):
     research = 0
+prediction=0.0
 if st.button("Rate the Chances"):
     inputs = np.expand_dims([input_marks_GRE, input_marks_TOEFL,
                             input_Uni_Rating, input_SOP, input_LOR, input_CGPA], 0)
