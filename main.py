@@ -44,6 +44,6 @@ elif st.checkbox("NO"):
 prediction=0.0
 if st.button("Rate the Chances"):
     inputs = np.expand_dims([input_marks_GRE, input_marks_TOEFL,
-                            input_Uni_Rating, input_SOP, input_LOR, input_CGPA], 0)
+                            input_Uni_Rating, input_SOP, input_LOR, input_CGPA,research], 0)
     prediction = loaded_model.predict(inputs)
 print(f"Your Chances are {np.squeeze(prediction, -1):.2f}")
