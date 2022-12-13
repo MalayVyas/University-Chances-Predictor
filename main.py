@@ -13,7 +13,7 @@ loaded_model.compile(loss='binary_crossentropy',
 page_bg_img = '''
 <style>
 body {
-background-image: url("image_url");
+background-image: url("bg_image.jpg");
 background-size: cover;
 }
 </style>
