@@ -47,4 +47,3 @@ if st.button("Rate the Chances"):
                             input_Uni_Rating, input_SOP, input_LOR, input_CGPA,research], 0)
     prediction = loaded_model.predict(inputs)
 st.write(prediction)
-print(prediction)
