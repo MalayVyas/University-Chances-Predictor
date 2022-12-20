@@ -28,7 +28,7 @@ input_marks_GRE = st.number_input(
 input_marks_TOEFL = st.number_input(
     label="TOEFL Score", min_value=0, max_value=120, step=1)
 input_Uni_Rating = st.slider(
-    label="University Ranking", min_value=0, max_value=5, step=1)
+    label="University Rating", min_value=0, max_value=5, step=1)
 input_SOP = st.slider(
     label="SOP", min_value=0.0, max_value=5.0, step=0.5)
 input_LOR = st.slider(
