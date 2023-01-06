@@ -21,7 +21,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.header("Your UNiversity Chance Predictor")
+st.header("Your University Chance Predictor")
 
 input_marks_GRE = st.number_input(
     label="GRE Score", min_value=260, max_value=340, step=1)
