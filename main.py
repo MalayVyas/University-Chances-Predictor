@@ -47,3 +47,5 @@ if st.button("Rate the Chances"):
                             input_Uni_Rating, input_SOP, input_LOR, input_CGPA,research], 0)
     prediction = loaded_model.predict(inputs)
 st.write(prediction)
+if st.button("Note"):
+  st.write("This model is 97% accurate so there may be some exceptions for the admissions")
